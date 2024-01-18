@@ -1,1209 +1,1208 @@
 const questions = [
     
   {
-    question: "How many types of nucleic acids exist in the DNA?",
+    question: "What is surgical bandaging?",
     answers: [
-      { text: "3", correct: false },
-      { text: "4", correct: true },
-      { text: "5", correct: false },
-      { text: "6", correct: false },
-      { text: "7", correct: false },
+      { text: "The process of using adhesive tape to close a wound", correct: false },
+      { text: "The process of wrapping a surgical site with sterile dressings ", correct: true },
+      { text: "The process of applying a cast to a broken bone ", correct: false },
+      { text: " The process of suturing a wound ", correct: false },
+      { text: "The process of cleaning a surgical site with antiseptic solution ", correct: false },
     ],
   },
   {
-    question: "Which principle task of Occupational Health involves locating trends, clusters, associations, and causes of disease and injury for in-depth investigation?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the wrist or hand? ",
     answers: [
-      { text: "Exposure reduction", correct: false },
-      { text: "Analysis", correct: true },
-      { text: "Substitution", correct: false },
-      { text: "Regulation", correct: false },
-      { text: "Awareness", correct: false },
+      { text: "Hand bandage ", correct: false },
+      { text: "Wrist bandage ", correct: true },
+      { text: "Finger bandage ", correct: false },
+      { text: " Arm bandage", correct: false },
+      { text: "Elbow bandage", correct: false },
     ],
   },
   {
-    question: "In occupational health, what does medical surveillance involve?",
+    question: "What is the term for the process of applying a dressing to a surgical wound? ",
     answers: [
-      { text: "Locating trends", correct: false },
-      { text: "Compensation", correct: false },
-      { text: "Monitoring", correct: true },
-      { text: "Exposure reduction", correct: false },
-      { text: "Substitution", correct: false },
+      { text: "Dressing application ", correct: true },
+      { text: "Wound closure ", correct: false },
+      { text: "Wound debridement ", correct: false },
+      { text: "Wound irrigation ", correct: false },
+      { text: "Wound packing ", correct: false },
     ],
   },
   {
-    question: "Which task involves preparing for prevention as facilities are planned or renovated?",
+    question: "Which of the following is a common type of padding used for surgical bandaging? ",
     answers: [
-      { text: "Exposure reduction", correct: false },
-      { text: "Anticipation", correct: true },
-      { text: "Analysis", correct: false },
-      { text: "Substitution", correct: false },
-      { text: "Management-worker cooperation", correct: false },
+      { text: " Cotton balls ", correct: false },
+      { text: "Foam pads ", correct: false },
+      { text: "Sponge pads ", correct: false },
+      { text: "Gauze pads", correct: false },
+      { text: "All of the above ", correct: true },
     ],
   },
   {
-    question: "How does analysis contribute to occupational health?",
+    question: "What is the term for the process of ensuring that a surgical bandage is tight enough to be secure, but not so tight as to restrict blood flow? ",
     answers: [
-      { text: "Monitoring disease", correct: false },
-      { text: "Identifying trends", correct: true },
-      { text: "Minimizing toxic exposure", correct: false },
-      { text: "Preventing injury", correct: false },
-      { text: "Compensating workers", correct: false },
+      { text: "Tensioning ", correct: true },
+      { text: "Tightening ", correct: false },
+      { text: "Loosening ", correct: false },
+      { text: "Adjusting ", correct: false },
+      { text: "Securing ", correct: false },
     ],
   },
 
   {
-    question: "What is the primary purpose of medical surveillance in occupational health?",
+    question: "Which of the following is a common type of surgical adhesive?",
     answers: [
-      { text: "Locating trends", correct: false },
-      { text: "Compensation", correct: false },
-      { text: "Identifying disease and injury", correct: true },
-      { text: "Exposure reduction", correct: false },
-      { text: "Substitution", correct: false }
+      { text: "Duct tape ", correct: false },
+      { text: "Electrical tape ", correct: false },
+      { text: "Medical tape ", correct: true },
+      { text: "Masking tape ", correct: false },
+      { text: "Packing tape ", correct: false }
     ]
   },
   {
-    question: "Why is awareness important in occupational health?",
+    question: "Which of the following is a common type of surgical dressing?",
     answers: [
-      { text: "Minimizing toxic exposure", correct: false },
-      { text: "Locating trends", correct: false },
-      { text: "Compensation for workers", correct: false },
-      { text: "Identifying disease and injury", correct: false },
-      { text: "Worker participation", correct: true }
+      { text: "Band-Aid ", correct: false },
+      { text: "Gauze ", correct: true },
+      { text: "Adhesive tape ", correct: false },
+      { text: "Elastic bandage ", correct: false },
+      { text: "Splint ", correct: false}
     ]
   },
   {
-    question: "What is the role of regulation in occupational health?",
+    question: "Which of the following is a common material used for surgical bandages? ",
     answers: [
-      { text: "Identifying disease and injury", correct: false },
-      { text: "Minimizing toxic exposure", correct: false },
-      { text: "On-site supervision", correct: true },
-      { text: "Analysis of data", correct: false },
-      { text: "Substitution of substances", correct: false }
+      { text: " Cotton ", correct: true },
+      { text: "Polyester ", correct: false },
+      { text: "Nylon ", correct: false},
+      { text: "Rayon ", correct: false },
+      { text: "Silk ", correct: false }
     ]
   },
   {
-    question: "How does compensation relate to occupational health?",
+    question: "What is the term for the type of bandage that is used to hold a dressing in place on the foot or ankle?  ",
     answers: [
-      { text: "Identifying disease and injury", correct: false },
-      { text: "Minimizing toxic exposure", correct: false },
-      { text: "Management-worker cooperation", correct: false },
-      { text: "Locating trends", correct: false },
-      { text: "Providing for illness and loss of life", correct: true }
+      { text: "Foot bandage", correct: false },
+      { text: "Ankle bandage ", correct: true},
+      { text: "Toe bandage  ", correct: false },
+      { text: "Leg bandage ", correct: false },
+      { text: " Knee bandage  ", correct: false }
     ]
   },
   {
-    question: "Which principal task involves preparing for prevention during the planning or renovation of facilities?",
+    question: "Which of the following is a common type of dressing used for surgical wounds? ",
     answers: [
-      { text: "Medical surveillance", correct: false },
-      { text: "Exposure reduction", correct: false },
-      { text: "Anticipation", correct: true },
-      { text: "Compensation", correct: false },
-      { text: "Management-worker cooperation", correct: false }
+      { text: " Hydrocolloid dressing ", correct: false },
+      { text: "Alginate dressing ", correct: false },
+      { text: "Foam dressing", correct: false },
+      { text: " Transparent film dressing ", correct: false },
+      { text: "All of the above ", correct: true }
     ]
   },
   {
-    question: "If a workplace consistently exceeds established exposure limits, which task is most relevant for addressing this issue?",
+    question: "What is the term for the type of bandage that is used to hold a dressing in place on the shoulder or upper arm? ",
     answers: [
-      { text: "Monitoring", correct: false },
-      { text: "Compensation", correct: false },
-      { text: "Substitution", correct: false },
-      { text: "Exposure reduction", correct: false },
-      { text: "Regulation", correct: true }
+      { text: "Shoulder bandage ", correct: false },
+      { text: "Arm bandage ", correct: false },
+      { text: " Elbow bandage ", correct: false },
+      { text: "Clavicle bandage ", correct: true },
+      { text: "Biceps bandage ", correct: false}
     ]
   },
   {
-    question: "In a scenario where toxic substances can be replaced with less harmful alternatives, what strategy aligns with occupational health goals?",
+    question: "What is the term for the type of bandage that is used to hold a dressing in place on the lower leg or calf? ",
     answers: [
-      { text: "Awareness", correct: false },
-      { text: "Analysis", correct: false },
-      { text: "Substitution", correct: true },
-      { text: "Compensation", correct: false },
-      { text: "Management-worker cooperation", correct: false }
+      { text: "Calf bandage ", correct: false },
+      { text: " Shin bandage ", correct: true},
+      { text: "Knee bandage", correct: false },
+      { text: " Ankle bandage", correct: false },
+      { text: "Achilles bandage", correct: false }
     ]
   },
   {
-    question: "How does management-worker cooperation contribute to occupational health?",
+    question: "Which of the following is a common type of wound that may require surgical bandaging? ",
     answers: [
-      { text: "Identifying disease and injury", correct: false },
-      { text: "Minimizing toxic exposure", correct: false },
-      { text: "Compensating workers", correct: false },
-      { text: "Worker participation", correct: true },
-      { text: "Analysis of data", correct: false }
+      { text: "Bruise ", correct: false },
+      { text: "Burn", correct: false },
+      { text: "Abrasion ", correct: false },
+      { text: "Laceration ", correct: false },
+      { text: "All of the above ", correct: true}
     ]
   },
   {
-    question: "If there is a sudden increase in reported cases of occupational disease, which task is crucial for understanding and addressing the issue?",
+    question: "What is the term for the process of applying a surgical bandage to a wound? ",
     answers: [
-      { text: "Compensation", correct: false },
-      { text: "Analysis", correct: true },
-      { text: "Medical surveillance", correct: false },
-      { text: "Exposure reduction", correct: false },
-      { text: "Awareness", correct: false }
+      { text: "Dressing", correct: false },
+      { text: "Wrapping ", correct: true },
+      { text: "Binding ", correct: false },
+      { text: "Securing", correct: false },
+      { text: "Taping", correct: false }
     ]
   },
   {
-    question: "What is one of the key responsibilities of management in worker's health?",
+    question: "Which of the following is a common type of material used for surgical dressings?",
     answers: [
-      { text: "Hazard identification", correct: false },
-      { text: "Compliance inspections", correct: false },
-      { text: "Advocacy", correct: false },
-      { text: "Offering wellness programs", correct: false },
-      { text: "Risk assessment", correct: true }
+      { text: "Plastic ", correct: false },
+      { text: " Cotton ", correct: true },
+      { text: "Leather ", correct: false },
+      { text: " Metal ", correct: false },
+      { text: " Rubber ", correct:false }
     ]
   },
   {
-    question: "Which governmental responsibility involves enforcing legislation related to worker health and safety?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the eye? ",
     answers: [
-      { text: "Inspections and Compliance", correct: false },
-      { text: "Research and Guidance", correct: false },
-      { text: "Regulatory Framework", correct: true },
-      { text: "Occupational Health Services", correct: false },
-      { text: "Advocacy and Collaboration", correct: false }
+      { text: " Eye patch ", correct: true },
+      { text: " Eyelid bandage ", correct: false },
+      { text: "Eye cover ", correct: false},
+      { text: "Eye wrap ", correct: false },
+      { text: " Eye shield", correct: false }
     ]
   },
   {
-    question: "What does management aim to achieve through regular risk assessments in the workplace?",
+    question: "Which of the following is a common type of dressing used for surgical bandaging? ",
     answers: [
-      { text: "Advocacy", correct: false },
-      { text: "Compliance", correct: false },
-      { text: "Creating a safe working environment", correct: true },
-      { text: "Identifying root causes", correct: false },
-      { text: "Offering wellness programs", correct: false }
+      { text: "Hydrogel ", correct: false },
+      { text: "Adhesive", correct: false },
+      { text: "Antibacterial", correct: false },
+      { text: "Non-stick ", correct: false },
+      { text: "All of the above ", correct: true }
     ]
   },
   {
-    question: "Which management responsibility involves educating employees about potential hazards and safe work practices?",
+    question: "Which of the following is a common type of dressing used in surgical bandaging? ",
     answers: [
-      { text: "Incident Reporting and Investigation", correct: false },
-      { text: "Risk Assessment and Mitigation", correct: false },
-      { text: "Health Promotion and Wellness Programs", correct: false },
-      { text: "Training and Education", correct: true },
-      { text: "Providing Occupational Health Services", correct: false }
+      { text: "Cast ", correct: false },
+      { text: "Splint ", correct: false },
+      { text: " Sterile gauze ", correct: true },
+      { text: "Elastic bandage ", correct: false},
+      { text: "Adhesive tape ", correct: false }
     ]
   },
   {
-    question: "What is the primary responsibility of management in incident reporting and investigation?",
+    question: "20. What is the name for the type of bandage that is used to hold a dressing in place on the foot or ankle?",
     answers: [
-      { text: "Identifying root causes", correct: true },
-      { text: "Compliance inspections", correct: false },
-      { text: "Offering wellness programs", correct: false },
-      { text: "Advocacy", correct: false },
-      { text: "Hazard identification", correct: false }
+      { text: "Foot bandage ", correct: false },
+      { text: "Ankle bandage ", correct: true},
+      { text: "Toe bandage ", correct: false },
+      { text: "Leg bandage", correct: false },
+      { text: "Knee bandage", correct: false }
     ]
   },
   {
-    question: "Which governmental responsibility involves ensuring compliance with health and safety regulations through regular inspections?",
+    question: "Which of the following is a common type of wound that may require a compression bandage? ",
     answers: [
-      { text: "Research and Guidance", correct: false },
-      { text: "Occupational Health Services", correct: false },
-      { text: "Advocacy and Collaboration", correct: false },
-      { text: "Regulatory Framework", correct: true },
-      { text: "Inspections and Compliance", correct: false }
+      { text: "Burn ", correct: false },
+      { text: " Bruise ", correct: false },
+      { text: "Cut ", correct: false },
+      { text: "Sprain ", correct: true },
+      { text: " Allergic reaction  ", correct: false }
     ]
   },
   {
-    question: "What proactive measures can management take to promote employee health and well-being?",
+    question: "What is the purpose of surgical bandaging? ",
     answers: [
-      { text: "Conducting regular risk assessments", correct: false },
-      { text: "Providing Occupational Health Services", correct: false },
-      { text: "Offering wellness programs", correct: true },
-      { text: "Advocating for worker health", correct: false },
-      { text: "Implementing safety protocols", correct: false }
+      { text: "To prevent infection ", correct: false },
+      { text: " To provide support to a surgical site", correct: false },
+      { text: "To control bleeding ", correct: false },
+      { text: "To promote healing ", correct: false },
+      { text: "All of the above ", correct: true }
     ]
   },
   {
-    question: "What is a key aspect of governmental responsibilities in research and guidance?",
+    question: "What is the term for a type of bandage that is used to provide compression to a body part, such as the ankle or wrist? ",
     answers: [
-      { text: "Offering wellness programs", correct: false },
-      { text: "Providing legal frameworks", correct: false },
-      { text: "Ensuring compliance", correct: false },
-      { text: "Collaborating with experts", correct: true },
-      { text: "Conducting regular inspections", correct: false }
+      { text: "Elastic bandage ", correct: true },
+      { text: "Figure-eight bandage ", correct: false },
+      { text: "Spiral bandage ", correct: false },
+      { text: "Circular bandage ", correct: true },
+      { text: "Recurrent bandage", correct: false }
     ]
   },
   {
-    question: "In what way can management protect the health of employees during risk assessments?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the head or neck?",
     answers: [
-      { text: "Developing appropriate strategies", correct: true },
-      { text: "Advocating for worker health", correct: false },
-      { text: "Offering wellness programs", correct: false },
-      { text: "Creating a safe working environment", correct: false },
-      { text: "Providing legal frameworks", correct: false }
+      { text: "Head bandage ", correct: true },
+      { text: "Neck bandage", correct: false },
+      { text: " Ear bandage ", correct: false },
+      { text: " Eye bandage ", correct: false },
+      { text: "Chin bandage ", correct: false }
     ]
   },
   {
-    question: "What is the responsibility of governmental agencies in occupational health services?",
+    question: "Which of the following is a common type of adhesive used for surgical bandaging? ",
     answers: [
-      { text: "Offering wellness programs", correct: false },
-      { text: "Advocating for worker health", correct: false },
-      { text: "Providing medical support and rehabilitation", correct: true },
-      { text: "Creating a safe working environment", correct: false },
-      { text: "Conducting regular risk assessments", correct: false }
+      { text: "Super glue ", correct: false },
+      { text: "Hot glue", correct: false },
+      { text: "Medical tape n", correct: true },
+      { text: "Rubber cement ", correct: false },
+      { text: "Contact cement ", correct: false }
     ]
   },
   {
-    question: "How does management contribute to worker health through health promotion and wellness programs?",
+    question: "What is the term for the process of removing a surgical bandage? ",
     answers: [
-      { text: "By enforcing legislation", correct: false },
-      { text: "By conducting regular inspections", correct: false },
-      { text: "By promoting work-life balance", correct: true },
-      { text: "By developing legal frameworks", correct: false },
-      { text: "By collaborating with experts", correct: false }
+      { text: "Unrolling ", correct: false },
+      { text: "Unpacking", correct: false },
+      { text: " Unwrapping ", correct: true },
+      { text: "Unbinding", correct: false },
+      { text: "Unveiling ", correct: false }
     ]
   },
   {
-    question: "What role does training and education play in both management and governmental responsibilities?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the chest or abdomen? ",
     answers: [
-      { text: "Identifying root causes", correct: false },
-      { text: "Ensuring compliance", correct: false },
-      { text: "Raising awareness about health and safety", correct: true },
-      { text: "Offering wellness programs", correct: false },
-      { text: "Providing legal frameworks", correct: false }
+      { text: "Chest bandages", correct: false },
+      { text: "Thoracic bandage", correct: false },
+      { text: "Abdominal bandage",correct : true },
+      { text: "Gastric bandage ", correct: false },
+      { text: " Cardiac bandage", correct: false }
     ]
   },
   {
-    question: "Why is incident reporting and investigation crucial for both management and worker health?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the thigh or hip? ",
     answers: [
-      { text: "To develop legal frameworks", correct: false },
-      { text: "To identify root causes and prevent future incidents", correct: true },
-      { text: "To conduct regular inspections", correct: false },
-      { text: "To provide medical support and rehabilitation", correct: false },
-      { text: "To advocate for worker health", correct: false }
+      { text: "Thigh bandage ", correct: true },
+      { text: " Hip bandage", correct:false },
+      { text: "Knee bandage ", correct: false },
+      { text: "THamstring bandage ", correct: false },
+      { text: "Quadriceps bandage", correct: false }
     ]
   },
   {
-    question: "How do governments contribute to worker health through research and guidance?",
+    question: "Which of the following is a common type of tape used for surgical bandaging? ",
     answers: [
-      { text: "By enforcing legislation", correct: false },
-      { text: "By providing medical support", correct: false },
-      { text: "By conducting compliance inspections", correct: false },
-      { text: "By developing guidelines based on data and studies", correct: true },
-      { text: "By promoting work-life balance", correct: false }
+      { text: "Duct tape ", correct: false },
+      { text: " Electrical tape ", correct: false },
+      { text: "Masking tape", correct: false },
+      { text: "Medical tape ", correct: true },
+      { text: "Packing tape ", correct: false }
     ]
   },
   {
-    question: "What is the significance of governmental advocacy and collaboration in worker health?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the forearm or wrist? ",
     answers: [
-      { text: "Identifying root causes", correct: false },
-      { text: "Promoting work-life balance", correct: false },
-      { text: "Ensuring compliance with regulations", correct: false },
-      { text: "Developing legal frameworks", correct: false },
-      { text: "Advocating for worker health at national and international levels", correct: true }
+      { text: "Forearm bandage ", correct: true },
+      { text: "Wrist bandage ", correct: false },
+      { text: " Hand bandage ", correct: false },
+      { text: " Finger bandage ", correct: false },
+      { text: " Knee bandage ", correct: false }
     ]
   },
   {
-    question: "In a workplace with outdated safety protocols, what is the most appropriate management action?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the chest or abdomen? ",
     answers: [
-      { text: "Offering wellness programs", correct: false },
-      { text: "Conducting regular inspections", correct: false },
-      { text: "Updating safety protocols", correct: true },
-      { text: "Advocating for worker health", correct: false },
-      { text: "Creating a safe working environment", correct: false }
+      { text: "Chest bandage ", correct: false },
+      { text: " Abdominal bandage ", correct: true },
+      { text: " Breast bandage", correct: false },
+      { text: "Shoulder bandage ", correct: false },
+      { text: " Back bandage ", correct: false }
     ]
   },
   {
-    question: "If a new health hazard emerges in a workplace, what is the initial step for both management and government?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the knee or elbow? ",
     answers: [
-      { text: "Offering wellness programs", correct: false },
-      { text: "Conducting regular risk assessments", correct: true },
-      { text: "Updating safety protocols", correct: false },
-      { text: "Identifying root causes", correct: false },
-      { text: "Developing new legal frameworks", correct: false }
+      { text: " Knee bandage", correct: true },
+      { text: "Elbow bandage ", correct: false },
+      { text: " Arm bandage ", correct: false },
+      { text: "Leg bandage ", correct: false },
+      { text: "Shoulder bandage", correct: false }
     ]
   },
   {
-    question: "How does management contribute to worker health during incident reporting and investigation?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the hand or fingers? ",
     answers: [
-      { text: "Offering wellness programs", correct: false },
-      { text: "Identifying root causes", correct: true },
-      { text: "Conducting regular inspections", correct: false },
-      { text: "Providing medical support", correct: false },
-      { text: "Developing legal frameworks", correct: false }
+      { text: "Hand bandage ", correct: false },
+      { text: "Finger bandage ", correct: true },
+      { text: "Wrist bandage", correct: false },
+      { text: "Arm bandage ", correct: false },
+      { text: "Elbow bandage ", correct: false }
     ]
   },
   {
-    question: "What action aligns with governmental responsibilities in occupational health services?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the shoulder? ",
     answers: [
-      { text: "Offering wellness programs", correct: false },
-      { text: "Advocating for worker health", correct: false },
-      { text: "Providing medical support and rehabilitation", correct: true },
-      { text: "Conducting compliance inspections", correct: false },
-      { text: "Creating a safe working environment", correct: false }
+      { text: "Shoulder bandage ", correct: true },
+      { text: "Arm bandage ", correct: false },
+      { text: "Back bandage", correct: false },
+      { text: "Neck bandage", correct: false },
+      { text: "Chest bandage", correct: false }
     ]
   },
   {
-    question: "What is the primary focus of the question assessing workplace exposures in clinical occupational health practice?",
+    question: "What is the name for the type of bandage that is used to secure a dressing in place on the chest? ",
     answers: [
-      { text: "What are the potential health risks?", correct: false },
-      { text: "Has the worker undergone medical surveillance?", correct: false },
-      { text: "Are there existing work restrictions?", correct: false },
-      { text: "What is the impact on job duties?", correct: false },
-      { text: "Are there work-related symptoms?", correct: true }
+      { text: "Chest bandage ", correct: false },
+      { text: "H Breast bandage ", correct: false },
+      { text: "Torso bandage", correct: false },
+      { text: "Abdominal bandage ", correct: true},
+      { text: "Shoulder bandage", correct: false }
     ]
   },
   {
-    question: "What does reviewing the worker's medical history help establish in clinical occupational health practice?",
+    question: "Which of the following is a common type of wound that requires surgical bandaging?",
     answers: [
-      { text: "Baseline for job tasks", correct: true },
-      { text: "Potential health risks", correct: false },
-      { text: "Existing accommodations", correct: false },
-      { text: "Relevant exposures", correct: false },
-      { text: "Ongoing health concerns", correct: false }
+      { text: "Bruise ", correct: false },
+      { text: "Cut ", correct: true },
+      { text: "Rash", correct: false },
+      { text: "Sunburn ", correct: false },
+      { text: "Allergic reaction ", correct: false }
     ]
   },
   {
-    question: "Understanding if the worker has existing limitations or work modifications relates to which aspect of clinical occupational health practice?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the elbow or forearm? ",
     answers: [
-      { text: "Preventive measures", correct: false },
-      { text: "Job performance impact", correct: false },
-      { text: "Medical history review", correct: false },
-      { text: "Ongoing health concerns", correct: false },
-      { text: "Existing accommodations", correct: true }
+      { text: "Elbow bandage ", correct: false },
+      { text: "Arm bandage ", correct: true },
+      { text: "Hand bandage ", correct: false },
+      { text: " Wrist bandage ", correct: false },
+      { text: "Finger bandage", correct:false }
     ]
   },
   {
-    question: "Assessing functional limitations resulting from health conditions is crucial for determining what in clinical occupational health practice?",
+    question: "What is the term for the process of applying a surgical bandage? ",
     answers: [
-      { text: "Preventive measures", correct: false },
-      { text: "Impact on job duties", correct: true },
-      { text: "Existing work restrictions", correct: false },
-      { text: "Potential health risks", correct: false },
-      { text: "Ongoing health concerns", correct: false }
+      { text: " Wrapping ", correct: true },
+      { text: " Rolling ", correct: false },
+      { text: "Packing ", correct: false },
+      { text: " Binding ", correct: false },
+      { text: "Covering", correct: false }
     ]
   },
   {
-    question: "What is the primary goal of evaluating potential short-term and long-term health risks associated with occupational exposures?",
+    question: "What is the name for the type of bandage that is used to hold a dressing in place on the thigh or knee? ",
     answers: [
-      { text: "Identifying specific exposures", correct: false },
-      { text: "Assessing job performance", correct: false },
-      { text: "Preventing health risks", correct: true },
-      { text: "Establishing a baseline", correct: false },
-      { text: "Guiding preventive measures", correct: false }
+      { text: "Knee bandage ", correct: true },
+      { text: "Leg bandage ", correct: false },
+      { text: "Ankle bandage ", correct: false },
+      { text: "Foot bandage ", correct: false },
+      { text: "Foot bandage ", correct: false }
     ]
   },
   {
-    question: "Identifying the best approaches for preventing or minimizing occupational health risks involves considering what in clinical occupational health practice?",
+    question: "What is the term for the process of reducing the number of microorganisms on a surface or object? ",
     answers: [
-      { text: "Ongoing health concerns", correct: false },
-      { text: "Engineering controls", correct: true },
-      { text: "Existing accommodations", correct: false },
-      { text: "Job performance impact", correct: false },
-      { text: "Specific workplace exposures", correct: false }
+      { text: "Sterilization ", correct: false },
+      { text: "Disinfection", correct: true },
+      { text: "Antisepsis", correct: false },
+      { text: "Sanitization ", correct: false },
+      { text: " Cleaning ", correct: false }
     ]
   },
   {
-    question: "Why is assessing whether the worker's health symptoms are related to occupational exposures crucial in clinical occupational health practice?",
+    question: "Which of the following is an example of a critical item in the surgical field? ",
     answers: [
-      { text: "To establish a baseline", correct: false },
-      { text: "To identify specific exposures", correct: false },
-      { text: "To determine preventive measures", correct: false },
-      { text: "To guide appropriate diagnosis and treatment", correct: true },
-      { text: "To assess job performance impact", correct: false }
+      { text: " The surgical table ", correct: false },
+      { text: " Surgical instruments ", correct: true },
+      { text: " Surgical drapes ", correct: false },
+      { text: "The surgical room's walls ", correct: false},
+      { text: "The surgical team's shoes ", correct: false }
     ]
   },
   {
-    question: "How does reviewing the worker's medical history contribute to the overall assessment in clinical occupational health practice?",
+    question: "44. Which of the following is an example of a commonly used disinfectant for cleaning surgical instruments?",
     answers: [
-      { text: "Identifying existing work restrictions", correct: false },
-      { text: "Establishing a baseline for job tasks", correct: true },
-      { text: "Evaluating potential health risks", correct: false },
-      { text: "Identifying specific exposures", correct: false },
-      { text: "Assessing job performance impact", correct: false }
+      { text: "Sterilization ", correct: true },
+      { text: "Disinfection ", correct: false },
+      { text: " Antisepsis", correct: false },
+      { text: "Sanitization", correct: false },
+      { text: " Cleaning ", correct: false }
     ]
   },
   {
     question: "In clinical occupational health practice, why is understanding existing work restrictions or accommodations important?",
     answers: [
-      { text: "To identify specific exposures", correct: false },
-      { text: "To assess job performance impact", correct: false },
-      { text: "To guide preventive measures", correct: true },
-      { text: "To determine preventive health risks", correct: false },
-      { text: "To establish a baseline", correct: false }
+      { text: " Bleach ", correct: false },
+      { text: "Alcohol ", correct: false },
+      { text: " Betadine ", correct: false },
+      { text: "Hydrogen peroxide", correct: false },
+      { text: "Glutaraldehyde ", correct: true }
     ]
   },
   {
-    question: "How does assessing the impact of the worker's health on job duties contribute to clinical occupational health practice?",
+    question: "45. Which of the following is an example of a type of shoe cover that is worn by surgical team members during surgical procedures? ",
     answers: [
-      { text: "To determine preventive measures", correct: false },
-      { text: "To guide appropriate diagnosis and treatment", correct: true },
-      { text: "To identify specific exposures", correct: false },
-      { text: "To evaluate potential health risks", correct: false },
-      { text: "To establish a baseline for job tasks", correct: false }
+      { text: "Sandals", correct: false },
+      { text: "Sneakers ", correct: false },
+      { text: " Boots ", correct: false },
+      { text: "Disposable shoe covers ",correct: true },
+      { text: " All of the above ", correct: false }
     ]
   },
   {
-    question: "What is the significance of evaluating short-term and long-term health risks associated with occupational exposures in clinical occupational health practice?",
+    question: " Which of the following is an example of a method for preventing the development of antimicrobial resistance?",
     answers: [
-      { text: "To identify specific exposures", correct: false },
-      { text: "To guide preventive measures", correct: false },
-      { text: "To assess job performance impact", correct: false },
-      { text: "To determine preventive health risks", correct: true },
-      { text: "To establish a baseline for job tasks", correct: false }
+      { text: "Proper hand hygiene", correct: true },
+      { text: "Overuse of antibiotics", correct: false },
+      { text: "Use of broad-spectrum antibiotics ", correct: false },
+      { text: "Use of antibiotics for viral infections ", correct: false },
+      { text: "TNone of the above", correct: false }
     ]
   },
   {
-    question: "Why is it important to identify the best approaches for preventing or minimizing occupational health risks in clinical occupational health practice?",
+    question: "Which of the following is an example of a sterile item that should be used only once and then discarded?",
     answers: [
-      { text: "To establish a baseline", correct: false },
-      { text: "To assess job performance impact", correct: false },
-      { text: "To guide appropriate diagnosis and treatment", correct: false },
-      { text: "To determine preventive measures", correct: true },
-      { text: "To evaluate potential health risks", correct: false }
+      { text: "Scalpel blade", correct: true },
+      { text: "Forceps", correct: false },
+      { text: "Scissors ", correct: false },
+      { text: "Needle holder ", correct: false },
+      { text: "All of the above ", correct: false }
     ]
   },
   {
-    question: "How do preventive measures such as engineering controls contribute to the overall goal of clinical occupational health practice?",
+    question: " Which of the following is an example of a type of surgical site infection that occurs throughout the body and can be life-threatening? ",
     answers: [
-      { text: "To guide appropriate diagnosis and treatment", correct: false },
-      { text: "To establish a baseline for job tasks", correct: false },
-      { text: "To assess job performance impact", correct: false },
-      { text: "To identify specific exposures", correct: false },
-      { text: "To prevent health risks", correct: true }
+      { text: "Superficial incisional", correct: false },
+      { text: "Deep incisional", correct: false },
+      { text: "Organ/space", correct: false },
+      { text: "Systemic", correct: true },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "In a clinical setting, if a worker reports work-related health symptoms, what would be the appropriate next step?",
+    question: "Which of the following is an example of a type of mask that is worn by surgical team members during surgical procedures? ",
     answers: [
-      { text: "Implementing engineering controls", correct: false },
-      { text: "Identifying specific exposures", correct: false },
-      { text: "Assessing job performance impact", correct: false },
-      { text: "Guiding appropriate diagnosis and treatment", correct: true },
-      { text: "Reviewing the worker's medical history", correct: false }
+      { text: "Cloth mask", correct: false },
+      { text: "N95 respirator ", correct: false },
+      { text: "Surgical mask ", correct: true },
+      { text: "Gas mask", correct: false },
+      { text: "All of the above", correct: false }
     ]
   },
   {
-    question: "If a worker has existing work restrictions, how might this information be used to improve occupational health in the workplace?",
+    question: "Which of the following is an example of a factor that can increase the risk of surgical fires? ",
     answers: [
-      { text: "Identifying specific exposures", correct: false },
-      { text: "Guiding appropriate diagnosis and treatment", correct: false },
-      { text: "Establishing a baseline for job tasks", correct: false },
-      { text: "Determining preventive measures", correct: true },
-      { text: "Assessing job performance impact", correct: false }
+      { text: "Use of alcohol-based skin preparations", correct: false },
+      { text: "Use of oxygen-enriched atmospheres", correct: false },
+      { text: "Use of laser devices", correct: false },
+      { text: "Use of electrocautery devices", correct: false },
+      { text: "All of the above ", correct: true }
     ]
   },
   {
-    question: "How would an understanding of potential short-term and long-term health risks guide decision-making in a clinical occupational health setting?",
+    question: "Which of the following is an example of a type of surgical smoke that can be produced during surgical procedures?",
     answers: [
-      { text: "To guide appropriate diagnosis and treatment", correct: false },
-      { text: "To assess job performance impact", correct: false },
-      { text: "To determine preventive measures", correct: true },
-      { text: "To identify specific exposures", correct: false },
-      { text: "To establish a baseline for job tasks", correct: false }
+      { text: "Carbon dioxide", correct: false },
+      { text: "Oxygen", correct: false },
+      { text: "Nitrogen", correct: false },
+      { text: "• Water vapor ", correct: false },
+      { text: "None of the above ", correct: true }
     ]
   },
   {
-    question: "If a worker's health significantly impacts their ability to perform job duties, what action might be taken to address this in a clinical occupational health practice?",
+    question: "Which of the following is an example of a type of hazard associated with the use of electrosurgical devices? ",
     answers: [
-      { text: "Assessing job performance impact", correct: true },
-      { text: "Identifying specific exposures", correct: false },
-      { text: "Implementing engineering controls", correct: false },
-      { text: "Guiding appropriate diagnosis and treatment", correct: false },
-      { text: "Establishing a baseline for job tasks", correct: false }
+      { text: "Burns", correct: false },
+      { text: "Electrocution", correct: false },
+      { text: "Explosion", correct: false },
+      { text: "Fire", correct: false },
+      { text: "All of the above", correct: true }
     ]
   },
   {
-    question: "In a workplace with potential health risks, how could the application of preventive measures be tailored to specific exposures?",
+    question: " Which of the following is an example of a method for reducing the risk of hazards associated with electrosurgical devices?",
     answers: [
-      { text: "Identifying specific exposures", correct: true },
-      { text: "Assessing job performance impact", correct: false },
-      { text: "Establishing a baseline for job tasks", correct: false },
-      { text: "Determining preventive measures", correct: false },
-      { text: "Guiding appropriate diagnosis and treatment", correct: false }
+      { text: "Proper grounding and insulation of the device ", correct: false },
+      { text: "Use of bipolar cautery instead of monopolar cautery", correct: false },
+      { text: "Use of non-flammable skin preparations", correct: false },
+      { text: "Use of non-combustible drapes ", correct: false },
+      { text: "• All of the above ", correct: true }
     ]
   },
   {
-    question: "If a clinical occupational health practitioner aims to implement effective preventive measures, what strategies might be considered beyond engineering controls?",
+    question: "Which of the following is an example of a method for reducing the risk of hazards associated with laser devices?",
     answers: [
-      { text: "Identifying specific exposures", correct: false },
-      { text: "Establishing a baseline for job tasks", correct: false },
-      { text: "Assessing job performance impact", correct: false },
-      { text: "Conducting ongoing health surveillance", correct: true },
-      { text: "Guiding appropriate diagnosis and treatment", correct: false }
+      { text: "Proper training and certification of operators ", correct: false },
+      { text: "Use of non-reflective materials in the surgical field", correct: false },
+      { text: "Proper use of protective eyewear", correct: false },
+      { text: "Use of smoke evacuators", correct: false },
+      { text: "All of the above ", correct: true }
     ]
   },
   {
-    question: "What is the primary focus of a walk-through inspection of a worksite?",
+    question: "Which of the following is an example of a physical method of sterilization?",
     answers: [
-      { text: "Evaluating ergonomic factors", correct: false },
-      { text: "Identifying potential hazards", correct: true },
-      { text: "Reviewing safety records", correct: false },
-      { text: "Checking worker feedback", correct: false },
-      { text: "Assessing compliance with regulations", correct: false }
+      { text: "Autoclaving ", correct: true },
+      { text: "Gas sterilization", correct: false },
+      { text: " Ethylene oxide sterilization ", correct: false },
+      { text: "Cold sterilization", correct: false },
+      { text: "Chemical sterilization", correct: false }
     ]
   },
   {
-    question: "During a walk-through inspection, what should be assessed regarding machinery and equipment?",
+    question: "What is asepsis? ",
     answers: [
-      { text: "Worker feedback", correct: false },
-      { text: "Fire safety measures", correct: false },
-      { text: "Compliance with regulations", correct: false },
-      { text: "Proper maintenance and operation", correct: true },
-      { text: "Indoor air quality", correct: false }
+      { text: "The study of microorganisms ", correct: false },
+      { text: "The process of sterilizing instruments ", correct: false },
+      { text: "The absence of microorganisms", correct: true },
+      { text: "The use of antibiotics", correct: false },
+      { text: "The process of cleaning surgical instruments", correct: false }
     ]
   },
   {
-    question: "What aspect should be considered when evaluating electrical systems during a walk-through inspection?",
+    question: "Which of the following is an example of a surgical aseptic technique? ",
     answers: [
-      { text: "Availability of personal protective equipment", correct: false },
-      { text: "Ergonomic principles", correct: false },
-      { text: "Compliance with regulations", correct: true },
-      { text: "Presence of potential electrical hazards", correct: true },
-      { text: "Worker feedback", correct: false }
+      { text: "Cleaning the surgical room with bleach ", correct: false },
+      { text: "Wiping down the surgical table with alcohol", correct: false },
+      { text: "Using a sterile surgical gown and gloves", correct: true },
+      { text: " Wearing regular clothing during surgery ", correct: true },
+      { text: " Rinsing surgical instruments in tap water", correct: false }
     ]
   },
   {
-    question: "What is a key consideration when assessing personal protective equipment (PPE)?",
+    question: "Which of the following is an example of a sterile item in the surgical field? ?",
     answers: [
-      { text: "Reviewing safety records", correct: false },
-      { text: "Checking worker feedback", correct: false },
-      { text: "Evaluating overall cleanliness", correct: false },
-      { text: "Ensuring proper use and maintenance", correct: true },
-      { text: "Assessing compliance with regulations", correct: false }
+      { text: "Non-sterile surgical gloves", correct: false },
+      { text: "Non-sterile gauze ", correct: false },
+      { text: "Sterile surgical instruments", correct: true },
+      { text: "Non-sterile surgical gown ", correct: false },
+      { text: "Non-sterile drapes ", correct: false }
     ]
   },
   {
-    question: "What should be evaluated concerning housekeeping during a walk-through inspection?",
+    question: "Which of the following is an example of an antiseptic? ",
     answers: [
-      { text: "Compliance with regulations", correct: false },
-      { text: "Presence of ergonomic factors", correct: false },
-      { text: "Overall cleanliness and potential hazards", correct: true },
-      { text: "Worker engagement", correct: false },
-      { text: "Indoor air quality", correct: false }
+      { text: "Alcohol", correct: true },
+      { text: "Bleach", correct: false },
+      { text: "Soap and water ", correct: false },
+      { text: "Hydrogen peroxide ", correct: false },
+      { text: "Ammonia ", correct: false }
     ]
   },
   {
-    question: "When considering ergonomics in a walk-through inspection, what factors should be assessed?",
+    question: ". What is the term for the process of killing or eliminating microorganisms on living tissue?",
     answers: [
-      { text: "Worker feedback", correct: false },
-      { text: "Compliance with regulations", correct: false },
-      { text: "Presence of safety signs", correct: false },
-      { text: "Overall cleanliness", correct: false },
-      { text: "Workstations, seating, and equipment design", correct: true }
+      { text: "Sterilization ", correct: false },
+      { text: "Disinfection", correct: false },
+      { text: "Antisepsis", correct: true },
+      { text: "Sanitization", correct: false },
+      { text: "Cleaning ", correct: false }
     ]
   },
   {
-    question: "Why is it essential to check the availability, appropriateness, and proper use of personal protective equipment (PPE)?",
+    question: "Which of the following is an example of a non-sterile field?",
     answers: [
-      { text: "To identify potential hazards", correct: false },
-      { text: "To evaluate overall cleanliness", correct: false },
-      { text: "To ensure proper labeling of hazardous materials", correct: false },
-      { text: "To assess compliance with regulations", correct: true },
-      { text: "To promote worker safety and health", correct: false }
+      { text: "The surgical team's clothing", correct: false },
+      { text: "TThe surgical team's shoes", correct: false },
+      { text: "The surgical table", correct: false },
+      { text: "The surgical room's walls ", correct: true },
+      { text: "The surgical room's ceiling", correct: false }
     ]
   },
   {
-    question: "How does the assessment of electrical systems contribute to the overall safety of a worksite during a walk-through inspection?",
+    question: "Which of the following is an example of a surgical aseptic technique that should be used during surgery?",
     answers: [
-      { text: "By identifying potential hazards", correct: true },
-      { text: "By checking worker feedback", correct: false },
-      { text: "By reviewing safety records", correct: false },
-      { text: "By assessing fire safety measures", correct: false },
-      { text: "By promoting worker comfort and efficiency", correct: false }
+      { text: "Wearing non-sterile clothing", correct: false },
+      { text: " Using non-sterile surgical instruments ", correct: false },
+      { text: "Wiping down the surgical table with tap water", correct: false },
+      { text: "Using a sterile surgical gown and gloves ", correct: true },
+      { text: "Rinsing surgical instruments with bleach", correct: false }
     ]
   },
   {
-    question: "What is the significance of evaluating fire safety measures, including the presence of fire extinguishers, during a walk-through inspection?",
+    question: "Which of the following is an example of a non-critical item in the surgical field?",
     answers: [
-      { text: "To assess compliance with regulations", correct: true },
-      { text: "To identify potential ergonomic factors", correct: false },
-      { text: "To ensure proper labeling of hazardous materials", correct: false },
-      { text: "To promote worker safety in case of emergencies", correct: false },
-      { text: "To review safety records", correct: false }
+      { text: "Surgical instruments", correct: false },
+      { text: "TSurgical drapes", correct: false },
+      { text: "The surgical table", correct: false },
+      { text: "The surgical room's walls", correct: true },
+      { text: "The surgical room's ceiling ", correct: false }
     ]
   },
   {
-    question: "How does the consideration of ergonomics contribute to minimizing the risk of musculoskeletal disorders during a walk-through inspection?",
+    question: " Which of the following is an example of a semi-critical item in the surgical field? ",
     answers: [
-      { text: "By assessing overall cleanliness", correct: false },
-      { text: "By checking worker feedback", correct: false },
-      { text: "By evaluating workstations, seating, and equipment design", correct: true },
-      { text: "By reviewing safety records", correct: false },
-      { text: "By promoting worker engagement", correct: false }
+      { text: "The surgical table ", correct: false },
+      { text: "Surgical instruments ", correct: false },
+      { text: "Surgical drapes", correct: true },
+      { text: "The surgical room's walls ", correct: false },
+      { text: "The surgical team's clothing", correct: false }
     ]
   },
   {
-    question: "Why is it important to assess ventilation systems and indoor air quality during a walk-through inspection?",
+    question: "What is the term for the process of removing dirt and debris from a surface or object? ",
     answers: [
-      { text: "To identify potential hazards", correct: false },
-      { text: "To evaluate overall cleanliness", correct: false },
-      { text: "To ensure proper labeling of hazardous materials", correct: false },
-      { text: "To promote worker comfort and efficiency", correct: false },
-      { text: "To check worker feedback", correct: true }
+      { text: "TSterilization", correct: false },
+      { text: "Disinfection", correct: false },
+      { text: "Disinfection", correct: false },
+      { text: "Sanitization", correct: false },
+      { text: "Cleaning", correct: true }
     ]
   },
   {
-    question: "What role does safety signage and communication play in enhancing safety during a walk-through inspection?",
+    question: "Which of the following is an example of a sterile prep solution? ",
     answers: [
-      { text: "Identifying potential hazards", correct: false },
-      { text: "Promoting worker engagement", correct: false },
-      { text: "Ensuring proper labeling of hazardous materials", correct: false },
-      { text: "Assessing compliance with regulations", correct: false },
-      { text: "Clearly communicating important safety information", correct: true }
+      { text: "Bleach", correct: false },
+      { text: "Alcohol", correct: false },
+      { text: " Soap and water", correct: false },
+      { text: "Hydrogen ", correct: false },
+      { text: "Betadine", correct: true }
     ]
   },
   {
-    question: "How does considering compliance with regulations contribute to the overall safety of a worksite during a walk-through inspection?",
+    question: "Which of the following is an example of a biological indicator used to test the efficacy of a sterilization process?",
     answers: [
-      { text: "By identifying potential hazards", correct: false },
-      { text: "By promoting worker engagement", correct: false },
-      { text: "By assessing fire safety measures", correct: false },
-      { text: "By ensuring legal adherence to safety standards", correct: true },
-      { text: "By reviewing safety records", correct: false }
+      { text: "Sterilization tape", correct: false },
+      { text: "Chemical indicators", correct: false },
+      { text: "Heat-sensitive indicators", correct: false },
+      { text: "Spore strips", correct: true },
+      { text: "Autoclave bags", correct: false }
     ]
   },
   {
-    question: "If, during a walk-through inspection, a potential hazard is identified related to machinery, what action should be taken?",
+    question: " Which of the following is an example of a common type of surgical site infection?",
     answers: [
-      { text: "Assess overall cleanliness", correct: false },
-      { text: "Report the hazard and ensure proper maintenance", correct: true },
-      { text: "Check worker feedback", correct: false },
-      { text: "Review safety records", correct: false },
-      { text: "Evaluate ventilation systems", correct: false }
+      { text: "Urinary tract infection", correct: false },
+      { text: "Pneumonia ", correct: false },
+      { text: "Meningitis ", correct: false },
+      { text: "Endocarditis ", correct: false },
+      { text: "Surgical wound infection", correct: true }
     ]
   },
   {
-    question: "In a worksite where personal protective equipment (PPE) is needed, what action should be taken?",
+    question: "Which of the following is an example of a type of surgical site infection caused by bacteria commonly found in the hospital environment?",
     answers: [
-      { text: "Promote worker comfort and efficiency", correct: false },
-      { text: "Identify potential hazards", correct: false },
-      { text: "Assess overall cleanliness", correct: false },
-      { text: "Check worker feedback", correct: false },
-      { text: "Ensure proper use and provide training", correct: true }
+      { text: " MRSA infection", correct: false },
+      { text: "VRE infection ", correct: false },
+      { text: "Pseudomonas infection ", correct: true },
+      { text: "Staphylococcus aureus infection ", correct: false },
+      { text: "Streptococcus infection", correct: false }
     ]
   },
   {
-    question: "If there are deficiencies in fire safety measures, how can a walk-through inspection contribute to improving the situation?",
+    question: "What is the primary goal of aseptic technique in surgery? ",
     answers: [
-      { text: "Assess overall cleanliness", correct: false },
-      { text: "Report the deficiencies and recommend corrective actions", correct: true },
-      { text: "Check worker feedback", correct: false },
-      { text: "Review safety records", correct: false },
-      { text: "Evaluate ventilation systems", correct: false }
+      { text: "To minimize the risk of infection ", correct: true },
+      { text: "To maximize patient comfort", correct: false },
+      { text: "To minimize the use of antibiotics", correct: false },
+      { text: "To increase surgical speed", correct: false },
+      { text: "To minimize surgical costs ", correct: false }
     ]
   },
   {
-    question: "During a walk-through inspection, if ergonomic principles are not being followed in a worksite, what measures can be recommended to minimize the risk of musculoskeletal disorders?",
+    question: "Which of the following is an example of a non-sterile item in the surgical field?",
     answers: [
-      { text: "Promote worker engagement", correct: false },
-      { text: "Identify potential hazards", correct: false },
-      { text: "Assess overall cleanliness", correct: false },
-      { text: "Check worker feedback", correct: false },
-      { text: "Recommend adjustments in workstations and seating", correct: true }
+      { text: "Sterile gauze ", correct: false },
+      { text: "Sterile drapes", correct: false },
+      { text: " Sterile surgical instruments", correct: false },
+      { text: "Non-sterile surgical gloves", correct: true },
+      { text: " Sterile surgical gown ", correct: false }
     ]
   },
   {
-    question: "Why is it crucial to verify compliance with occupational health and safety regulations during a walk-through inspection?",
+    question: "What is the term for the process of eliminating all microorganisms from a surface or object?",
     answers: [
-      { text: "To assess overall cleanliness", correct: false },
-      { text: "To identify potential hazards", correct: false },
-      { text: "To promote worker engagement", correct: false },
-      { text: "To ensure legal adherence to safety standards", correct: true },
-      { text: "To review safety records", correct: false }
+      { text: "Sterilization", correct: true },
+      { text: " Disinfection", correct: false },
+      { text: "Antisepsis", correct: false },
+      { text: "Sanitization ", correct: false },
+      { text: "Cleaning", correct: false }
     ]
   },
   {
-    question: "If, during a walk-through inspection, workers express safety concerns, what steps should be taken to address these concerns?",
+    question: "Which of the following is an example of a surgical site infection?",
     answers: [
-      { text: "Assess overall cleanliness", correct: false },
-      { text: "Report the concerns and encourage open communication", correct: true },
-      { text: "Check worker feedback", correct: false },
-      { text: "Review safety records", correct: false },
-      { text: "Evaluate ventilation systems", correct: false }
+      { text: "Pneumonia ", correct: false },
+      { text: "Blood clot ", correct: false },
+      { text: "Kidney failure", correct: false },
+      { text: " Urinary tract infection", correct: false },
+      { text: "Wound infection", correct: true }
     ]
   },
   {
-    question: "What is a common factor in Chemical-Related Occupational Diseases?",
+    question: "WWhich of the following is an example of a sterile field?",
     answers: [
-      { text: "Extreme temperatures", correct: false },
-      { text: "Exposure to biological agents", correct: false },
-      { text: "Physical factors", correct: false },
-      { text: "Hazardous chemicals or substances", correct: true },
-      { text: "Ergonomic hazards", correct: false }
+      { text: "The surgical team's shoes", correct: false },
+      { text: "The surgical team's clothing", correct: false },
+      { text: "The surgical table", correct: true },
+      { text: "The surgical room's walls", correct: false },
+      { text: "The surgical room's ceiling", correct: false }
     ]
   },
   {
-    question: "Which category of diseases is associated with conditions like occupational asthma and pneumoconiosis?",
+    question: "Which of the following is the most effective way to reduce the risk of surgical site infections?",
     answers: [
-      { text: "Dermatological Occupational Diseases", correct: false },
-      { text: "Neurological Occupational Diseases", correct: false },
-      { text: "Respiratory Occupational Diseases", correct: true },
-      { text: "Cardiovascular Occupational Diseases", correct: false },
-      { text: "Musculoskeletal Occupational Diseases", correct: false }
+      { text: "Using sterile surgical instruments ", correct: true },
+      { text: "Administering antibiotics after surgery ", correct: false },
+      { text: " Wearing clean clothing during surgery ", correct: false },
+      { text: "Cleaning the surgical room with disinfectant ", correct: false },
+      { text: "Minimizing the length of surgery", correct: false }
     ]
   },
   {
-    question: "What characterizes Biological Occupational Diseases?",
+    question: "Which of the following is an example of a barrier method used to maintain a sterile field?",
     answers: [
-      { text: "Exposure to extreme temperatures", correct: false },
-      { text: "Impact on the musculoskeletal system", correct: false },
-      { text: "Exposure to bacteria, viruses, or fungi", correct: true },
-      { text: "Physical stressors in the workplace", correct: false },
-      { text: "Conditions like carpal tunnel syndrome", correct: false }
+      { text: "Wearing non-sterile clothing ", correct: false },
+      { text: "Wearing sterile surgical gloves ", correct: true },
+      { text: "Using non-sterile surgical instruments", correct: false },
+      { text: "Using non-sterile drapes", correct: false },
+      { text: "Wiping down the surgical table with tap water", correct: false }
     ]
   },
   {
-    question: "Which diseases fall under Dermatological Occupational Diseases?",
+    question: "What is the term for the process of reducing the number of microorganisms on non-living surfaces?",
     answers: [
-      { text: "Conditions like occupational asthma", correct: false },
-      { text: "Skin cancer and infectious diseases", correct: true },
-      { text: "Chronic obstructive pulmonary disease (COPD)", correct: false },
-      { text: "Respiratory system disorders", correct: false },
-      { text: "Musculoskeletal disorders", correct: false }
+      { text: "Sterilization ", correct: false },
+      { text: "Disinfection ", correct: true },
+      { text: "Antisepsis ", correct: false },
+      { text: "Sanitization ", correct: false },
+      { text: "Cleaning ", correct: false }
     ]
   },
   {
-    question: "What are the characteristics of Musculoskeletal Occupational Diseases?",
+    question: "Which of the following is an example of a high-level disinfectant?",
     answers: [
-      { text: "Impact on the nervous system", correct: false },
-      { text: "Exposure to extreme temperatures", correct: false },
-      { text: "Conditions like back pain and repetitive strain injuries", correct: true },
-      { text: "Occupational heart disease", correct: false },
-      { text: "Physical stressors in the workplace", correct: false }
+      { text: "Soap and water ", correct: false },
+      { text: "Alcohol ", correct: false },
+      { text: "Bleach ", correct: false },
+      { text: "Hydrogen peroxide", correct: true },
+      { text: "PAmmonia ", correct: false }
     ]
   },
   {
-    question: "In Neurological Occupational Diseases, what conditions may be included?",
+    question: "Which of the following is an example of a low-level disinfectant?",
     answers: [
-      { text: "Occupational asthma", correct: false },
-      { text: "Peripheral neuropathy and vibration-induced disorders", correct: true },
-      { text: "Skin cancer and contact dermatitis", correct: false },
-      { text: "Cardiovascular system disorders", correct: false },
-      { text: "Chronic obstructive pulmonary disease (COPD)", correct: false }
+      { text: "Soap and water", correct: true },
+      { text: "Alcohol ", correct: false },
+      { text: "Bleach", correct: false },
+      { text: "Hydrogen peroxide", correct: false },
+      { text: " Ammonia ", correct: false }
     ]
   },
   {
-    question: "If an individual is exposed to hazardous chemicals and develops respiratory disorders, what classification does this fall under?",
+    question: "Which of the following is an example of a surgical aseptic technique that should be used when preparing a surgical site?",
     answers: [
-      { text: "Cardiovascular Occupational Diseases", correct: false },
-      { text: "Physical Occupational Diseases", correct: false },
-      { text: "Dermatological Occupational Diseases", correct: false },
-      { text: "Respiratory Occupational Diseases", correct: true },
-      { text: "Neurological Occupational Diseases", correct: false }
+      { text: "Using non-sterile surgical instruments ", correct: false },
+      { text: "Wearing non-sterile clothing", correct: false },
+      { text: "Using non-sterile drapes", correct: false },
+      { text: "Wiping down the surgical site with tap water", correct: false },
+      { text: "Using a sterile surgical prep solution ", correct: true }
     ]
   },
   {
-    question: "How can a worksite improve conditions related to Musculoskeletal Occupational Diseases during a walk-through inspection?",
+    question: "Which of the following is an example of a commonly used antiseptic for surgical hand hygiene? ",
     answers: [
-      { text: "Assess overall cleanliness", correct: false },
-      { text: "Ensure proper use of personal protective equipment", correct: false },
-      { text: "Report deficiencies in fire safety measures", correct: false },
-      { text: "Recommend adjustments in ergonomics and workstations", correct: true },
-      { text: "Identify potential hazards related to biological agents", correct: false }
+      { text: "Bleach", correct: false },
+      { text: "Alcohol", correct: true },
+      { text: "Betadine", correct: false },
+      { text: "Hydrogen peroxide", correct: false },
+      { text: "Ammonia ", correct: false }
     ]
   },
   {
-    question: "In a workplace where employees show signs of skin disorders due to exposure, what measures can be taken to address this issue?",
+    question: "Which of the following is an example of a chemical method of sterilization?",
     answers: [
-      { text: "Promote worker engagement", correct: false },
-      { text: "Report respiratory disorders", correct: false },
-      { text: "Ensure proper use of personal protective equipment", correct: true },
-      { text: "Recommend adjustments in ergonomics", correct: false },
-      { text: "Assess ventilation systems", correct: false }
+      { text: "Autoclaving", correct: false },
+      { text: "Gas sterilization", correct: false },
+      { text: "Ethylene oxide sterilization", correct: true },
+      { text: "Cold sterilization", correct: false },
+      { text: "AChemical sterilization", correct: false }
     ]
   },
   {
-    question: "What is the common term for Coal Worker's Pneumoconiosis (CWP)?",
+    question: "Which of the following is an example of a chemical indicator used to test the efficacy of a sterilization process? ",
     answers: [
-      { text: "Silicosis", correct: false },
-      { text: "Black lung disease", correct: true },
-      { text: "Asbestosis", correct: false },
-      { text: "Lung fibrosis", correct: false },
-      { text: "Respiratory impairment", correct: false }
+      { text: "Sterilization tape", correct: true },
+      { text: " Biological indicators", correct: false },
+      { text: "Heat-sensitive indicators ", correct: false },
+      { text: "Spore strips ", correct: false },
+      { text: "Autoclave bags ", correct: false }
     ]
   },
   {
-    question: "Which type of pneumoconiosis results from the inhalation of crystalline silica dust?",
+    question: "What is the term for the process of preventing the introduction of microorganisms into a sterile field?",
     answers: [
-      { text: "Asbestosis", correct: false },
-      { text: "Silicosis", correct: true },
-      { text: "Coal Worker's Pneumoconiosis (CWP)", correct: false },
-      { text: "Lung cancer", correct: false },
-      { text: "Mesothelioma", correct: false }
+      { text: "Sterilization", correct: false },
+      { text: "Disinfection", correct: false },
+      { text: "Antisepsis", correct: false },
+      { text: "Sanitization", correct: false },
+      { text: "Asepsis", correct: true }
     ]
   },
   {
-    question: "What industry is commonly associated with the development of Coal Worker's Pneumoconiosis (CWP)?",
+    question: "Which of the following is an example of a surgical aseptic technique that should be used during a surgical procedure? ",
     answers: [
-      { text: "Construction", correct: false },
-      { text: "Shipbuilding", correct: false },
-      { text: "Asbestos mining", correct: false },
-      { text: "Coal mining", correct: true },
-      { text: "Sandblasting", correct: false }
+      { text: "Talking on the phone during surgery ", correct: false },
+      { text: "Wearing non-sterile clothing", correct: false },
+      { text: "Touching non-sterile surface", correct: false },
+      { text: "Limiting movement in and out of the surgical area", correct: true },
+      { text: "Using non-sterile surgical instruments", correct: false }
     ]
   },
   {
-    question: "How does Silicosis affect the lungs?",
+    question: "Which of the following is an example of a factor that increases the risk of surgical site infections?",
     answers: [
-      { text: "Accumulation of carbon particles", correct: false },
-      { text: "Formation of scar tissue", correct: false },
-      { text: "Inflammation and fibrosis", correct: true },
-      { text: "Impaired lung function", correct: false },
-      { text: "Reduced lung capacity", correct: false }
+      { text: "Short surgery time ", correct: false },
+      { text: "Proper use of antibiotics", correct: false },
+      { text: "Proper hand hygiene by the surgical team ", correct: false },
+      { text: "Poor nutritional status of the patient ", correct: true },
+      { text: "Minimal blood loss during surgery", correct: false }
     ]
   },
   {
-    question: "What is a characteristic feature of Asbestosis?",
+    question: "Which of the following is an example of a type of surgical site infection caused by bacteria commonly found on the patient's skin?",
     answers: [
-      { text: "Accumulation of carbon particles", correct: false },
-      { text: "Formation of silica particles", correct: false },
-      { text: "Increased risk of lung cancer", correct: true },
-      { text: "Breathing difficulties", correct: false },
-      { text: "Lung impairment", correct: false }
+      { text: "MRSA infection ", correct: false },
+      { text: "VRE infection", correct: false },
+      { text: "Pseudomonas infection ", correct: false },
+      { text: "Staphylococcus aureus infection ", correct: true },
+      { text: "Streptococcus infection", correct: false }
     ]
   },
   {
-    question: "In which industries is Asbestosis commonly found?",
+    question: "What is the term for the process of removing dirt, debris, and other visible contaminants from a surface or object?",
     answers: [
-      { text: "Mining", correct: false },
-      { text: "Quarrying", correct: false },
-      { text: "Shipbuilding", correct: false },
-      { text: "Construction", correct: true },
-      { text: "Sandblasting", correct: false }
+      { text: "Sterilization ", correct: false },
+      { text: "Disinfection", correct: false },
+      { text: "Antisepsis", correct: false },
+      { text: "Sanitization", correct: false },
+      { text: "Cleaning", correct: true }
     ]
   },
   {
-    question: "If an individual has a history of prolonged exposure to coal dust, what type of pneumoconiosis might they be at risk for?",
+    question: "Which of the following is an example of a commonly used disinfectant for cleaning surfaces in the surgical environment? ",
     answers: [
-      { text: "Silicosis", correct: false },
-      { text: "Asbestosis", correct: false },
-      { text: "Black lung disease (CWP)", correct: true },
-      { text: "Mesothelioma", correct: false },
-      { text: "Lung cancer", correct: false }
+      { text: "Bleach", correct: true },
+      { text: "Alcohol", correct: false },
+      { text: "Betadine", correct: false },
+      { text: "Hydrogen peroxide ", correct: false },
+      { text: "Ammonia ", correct: false }
     ]
   },
   {
-    question: "What preventive measures can be taken in industries with a risk of Silicosis?",
+    question: "Which of the following is an example of a type of surgical site infection that occurs in the subcutaneous tissues and muscles?",
     answers: [
-      { text: "Use of asbestos fibers", correct: false },
-      { text: "Proper ventilation", correct: true },
-      { text: "Prolonged exposure to coal dust", correct: false },
-      { text: "Sandblasting without protective equipment", correct: false },
-      { text: "Increased asbestos mining activities", correct: false }
+      { text: "Superficial incisional", correct: false },
+      { text: "Deep incisional", correct: true },
+      { text: "POrgan/space ", correct: false },
+      { text: "Systemic", correct: false },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "How does Asbestosis contribute to an increased risk of lung cancer and mesothelioma?",
+    question: " Which of the following is an example of a type of surgical site infection that occurs in organs or spaces that are manipulated during the surgical procedure? ",
     answers: [
-      { text: "Formation of silica particles", correct: false },
-      { text: "Accumulation of carbon particles", correct: false },
-      { text: "Inflammation and fibrosis", correct: false },
-      { text: "Prolonged exposure to coal dust", correct: false },
-      { text: "Inhalation of asbestos fibers", correct: true }
+      { text: "Superficial incisional", correct: false },
+      { text: "Deep incisional ", correct: false },
+      { text: "Organ/space", correct: true },
+      { text: "Systemic", correct: false },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "What is a characteristic feature of Asbestosis?",
+    question: "Which of the following is an example of a factor that can increase the risk of surgical site infections?",
     answers: [
-      { text: "Accumulation of carbon particles", correct: false },
-      { text: "Formation of silica particles", correct: false },
-      { text: "Increased risk of lung cancer", correct: true },
-      { text: "Breathing difficulties", correct: false },
-      { text: "Lung impairment", correct: false }
+      { text: "Obesity", correct: false },
+      { text: "Age", correct: false },
+      { text: "Immunosuppression", correct: true },
+      { text: "Diabetes", correct: false },
+      { text: " All of the above", correct: false }
     ]
   },
   {
-    question: "How does Silicosis affect the lungs?",
+    question: "Which of the following is an example of a method for reducing the risk of surgical site infections?",
     answers: [
-      { text: "Accumulation of carbon particles", correct: false },
-      { text: "Formation of scar tissue", correct: false },
-      { text: "Inflammation and fibrosis", correct: true },
-      { text: "Impaired lung function", correct: false },
-      { text: "Reduced lung capacity", correct: false }
+      { text: "Proper hand hygiene ", correct: false },
+      { text: " Sterilization of surgical instruments", correct: false },
+      { text: "Use of prophylactic antibiotics", correct: false },
+      { text: " Use of sterile drapes and gowns ", correct: false },
+      { text: "All of the above", correct: true }
     ]
   },
   {
-    question: "Which administrative control measures are recommended for noise exposure?",
+    question: "Which of the following is an example of a type of glove that is worn by surgical team members during surgical procedures?",
     answers: [
-      { text: "Hosting noise-canceling headphone giveaways", correct: false },
-      { text: "Using vibration-absorbing materials", correct: false },
-      { text: "Enclosing or isolating noise sources", correct: false },
-      { text: "Limiting exposure through distance", correct: false },
-      { text: "Providing quiet areas for relief", correct: true }
+      { text: "Latex", correct: false },
+      { text: "Vinyl", correct: false },
+      { text: "Nitrile", correct: true },
+      { text: "Neoprene", correct: false },
+      { text: "All of the above", correct: false }
     ]
   },
   {
-    question: "What specific measures can be taken to control noise exposure in a workplace? Choose the most effective option.",
+    question: ". Which of the following is an example of a type of gown that is worn by surgical team members during surgical procedures? .",
     answers: [
-      { text: "Providing quiet areas for relief", correct: true },
-      { text: "Using vibration-absorbing materials", correct: false },
-      { text: "Enclosing or isolating noise sources", correct: false },
-      { text: "Limiting exposure through distance", correct: false },
-      { text: "Initiating a workplace music program", correct: false }
+      { text: "Cloth gown", correct: false },
+      { text: "Disposable gown ", correct: false },
+      { text: "Isolation gown", correct: false },
+      { text: "Sterile gown ", correct: true },
+      { text: "All of the above", correct: false }
     ]
   },
   {
-    question: "A worker reports symptoms related to respiratory occupational diseases. What steps would you take as an occupational health practitioner?",
+    question: "Which of the following is an example of a type of cap that is worn by surgical team members during surgical procedures? ",
     answers: [
-      { text: "Conduct a walk-through inspection for noise exposure", correct: false },
-      { text: "Assess ergonomic factors in the workstation", correct: false },
-      { text: "Review medical history and conduct relevant surveillance", correct: true },
-      { text: "Implement measures for chemical hazard reduction", correct: false },
-      { text: "Organize a team-building exercise", correct: false }
+      { text: "Baseball cap ", correct: false },
+      { text: " Scrub cap ", correct: true },
+      { text: "Chef's hat ", correct: false },
+      { text: "Cowboy hat ", correct: false },
+      { text: "All of the above ", correct: false }
     ]
   },
   {
-    question: "In a laboratory setting, what engineering controls can effectively mitigate the risks associated with biological agents?",
+    question: " Which of the following is an example of a type of cap that is worn by surgical team members during surgical procedures?",
     answers: [
-      { text: "Installing vibration damping seats", correct: false },
-      { text: "Using personal protective equipment (PPE)", correct: false },
-      { text: "Conducting weekly mindfulness sessions", correct: false },
-      { text: "Providing quiet areas for relief", correct: false },
-      { text: "Implementing local exhaust ventilation systems",correct: true }
+      { text: "Baseball cap ", correct: false },
+      { text: "Scrub cap ", correct: true },
+      { text: "Chef's hat ", correct: false },
+      { text: "Cowboy hat", correct: false },
+      { text: "IAll of the above",correct: false }
     ]
   },
   {
-    question: "How can an organization ensure compliance with ILO Convention 170 regarding the use of chemicals?",
+    question: "Which of the following is an example of a method for preventing surgical fires?",
     answers: [
-      { text: "Adhere to occupational standards and policies", correct: true },
-      { text: "Establish vaccination policies for workers", correct: false },
-      { text: "Focus on noise exposure reduction", correct: false },
-      { text: "Use personal protective equipment (PPE)", correct: false },
-      { text: "Introduce a daily exercise routine for employees", correct: false }
+      { text: "Use of non-flammable skin preparations ", correct: false },
+      { text: "Use of non-combustible drapes", correct: false },
+      { text: "Minimizing the use of oxygen-enriched atmospheres ", correct: false },
+      { text: "Use of fire-retardant materials", correct: false },
+      { text: "IAll of the above", correct: true }
     ]
   },
   {
-    question: "As a safety officer, what measures would you take to reduce the impact of whole-body vibration in a construction environment?",
+    question: "Which of the following is an example of a hazard associated with surgical smoke?",
     answers: [
-      { text: "Increase noise exposure controls", correct: false },
-      { text: "Implement ventilation and air quality measures", correct: false },
-      { text: "Limit time spent by workers on vibrating surfaces", correct: true },
-      { text: "Introduce psychological risk factor assessments", correct: false },
-      { text: "Distribute stress-relief toys to workers", correct: false }
+      { text: "Eye irritation", correct: false },
+      { text: "Skin irritation", correct: false },
+      { text: "All of the above ", correct: true },
+      { text: "Respiratory irritation", correct: false },
+      { text: "Increased risk of infection", correct: false }
     ]
   },
   {
-    question: "How would you address the risk of silicosis in an industry where workers are exposed to crystalline silica dust?",
+    question: "Which of the following is an example of a method for reducing the risk of surgical smoke hazards? ",
     answers: [
-      { text: "Use personal protective equipment (PPE)", correct: false },
-      { text: "Implement engineering controls like ventilation systems", correct: true },
-      { text: "Limit time spent by workers on vibrating surfaces", correct: false },
-      { text: "Conduct a walk-through inspection for psychosocial risk factors", correct: false },
-      { text: "Initiate a workplace book club", correct: false }
+      { text: "Use of smoke evacuators  ", correct: false },
+      { text: "All of the above", correct: true },
+      { text: "Use of respiratory protection ", correct: false },
+      { text: " Minimizing the use of energy devices ", correct: false },
+      { text: "Use of local exhaust ventilation ", correct: false }
     ]
   },
   {
-    question: "In a healthcare setting, what administrative controls can be implemented to reduce the impact of psychosocial risk factors?",
+    question: "Which of the following is an example of a type of hazard associated with the use of laser devices? ",
     answers: [
-      { text: "Enclosing or isolating noise sources", correct: false },
-      { text: "Limiting the amount of time a person spends at a noise source", correct: false },
-      { text: "Providing vaccination policies for specific biological hazards", correct: false },
-      { text: "Enhancing communication and work organization", correct: true },
-      { text: "Introducing a workplace meditation program", correct: false }
+      { text: "Electrocution", correct: false },
+      { text: "Explosion", correct: false },
+      { text: "Fire", correct: false },
+      { text: "Burns", correct: true },
+      { text: "All of the above", correct: false }
     ]
   },
   {
-    question: "How can an organization effectively manage the risks associated with the use of hazardous chemicals, considering ILO Convention 170?",
+    question: "Which of the following is an example of a type of microorganism that can be killed by an antiseptic?",
     answers: [
-      { text: "Focus on noise exposure controls", correct: false },
-      { text: "Adhere to occupational standards and policies", correct: true },
-      { text: "Increase ventilation and air quality measures", correct: false },
-      { text: "Implement personal protective equipment (PPE)", correct: false },
-      { text: "Organize a workplace safety fair", correct: false }
+      { text: "Bacteria", correct: false },
+      { text: "All of the above", correct: true },
+      { text: "Fungi", correct: false },
+      { text: "Viruses",correct: false },
+      { text: "None of the above ", correct: false }
     ]
   },
   {
-    question: "What is the primary focus of Occupational Health, according to NIEH (2018)?",
+    question: "Which of the following is an example of a method for evaluating the effectiveness of an antiseptic??",
     answers: [
-      { text: "Identifying and controlling psychosocial risk factors", correct: false },
-      { text: "Protecting workers from physical, chemical, and other hazards", correct: true },
-      { text: "Promoting workplace noise exposure celebrations", correct: false },
-      { text: "Enhancing communication in the workplace", correct: false },
-      { text: "Hosting monthly pizza parties for employees", correct: false }
+      { text: "Swabbing the skin with a sterile sponge ", correct: false },
+      { text: "Culture testing", correct: true },
+      { text: "PMeasuring the pH of the solution ", correct: false },
+      { text: "Measuring the concentration of the solution ", correct: false },
+      { text: "HNone of the above ", correct: false }
     ]
   },
   {
-    question: "What is the purpose of administrative controls in noise exposure management?",
+    question: " Which of the following is an example of a commonly used antiseptic for skin preparation prior to an injection?",
     answers: [
-      { text: "Operating noisy machines during peak hours", correct: false },
-      { text: "Increasing exposure time at noise sources", correct: false },
-      { text: "Limiting the amount of time spent at a noise source", correct: true },
-      { text: "Distributing stress-relief toys to workers", correct: false },
-      { text: "Organizing daily musical therapy sessions", correct: false }
+      { text: "Betadine", correct: false },
+      { text: "Formaldehyde", correct: false },
+      { text: "Alcohol", correct: true },
+      { text: "Chlorhexidine", correct: false },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "How does whole-body vibration differ from hand and arm vibration?",
+    question: " Which of the following is an example of a commonly used antiseptic for wound care? ",
     answers: [
-      { text: "Whole-body vibration affects only the hands and arms", correct: false },
-      { text: "Hand and arm vibration affect the entire body", correct: false },
-      { text: "They both result from noise exposure", correct: false },
-      { text: "Different symptoms", correct: true },
-      { text: "Hand and arm vibration is a type of psychosocial risk", correct: false }
+      { text: "Chlorhexidine", correct: false },
+      { text: "H Hydrogen peroxide", correct: false },
+      { text: " Formaldehyde", correct: false },
+      { text: "Betadine", correct: true },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "What are the primary types of pneumoconiosis?",
+    question: "Which of the following is an example of a method for ensuring the proper use of an antiseptic solution? ",
     answers: [
-      { text: "Tuberculosis", correct: false },
-      { text: "Coal Worker's Pneumoconiosis and silicosis", correct: true },
-      { text: "Biological pneumoconiosis and physical pneumoconiosis", correct: false },
-      { text: "Whole-body pneumoconiosis and hand and arm pneumoconiosis", correct: false },
-      { text: "Noise-induced pneumoconiosis and vibration-induced pneumoconiosis", correct: false }
+      { text: "Reading the manufacturer's instructions ", correct: false },
+      { text: "All of the above ", correct: true },
+      { text: "Using a sterile technique ", correct: false },
+      { text: "Wearing personal protective equipment", correct: false },
+      { text: "None of the above ", correct: false }
     ]
   },
   {
-    question: "Which of the following represents an example of an engineering control for noise exposure?",
+    question: "Which of the following is an example of a method for preventing the development of resistance to an antiseptic solution?",
     answers: [
-      { text: "Providing areas for quiet", correct: false },
-      { text: "Limiting time at noisy machines", correct: false },
-      { text: "Enclosing or isolating noise sources", correct: true },
-      { text: "Utilizing vibration-absorbing materials", correct: false },
-      { text: "Implementing administrative scheduling changes", correct: false }
+      { text: "Using the same antiseptic solution for all patients ", correct: false },
+      { text: "Using a high concentration of the antiseptic solutio", correct: false },
+      { text: "Alternating the use of different antiseptic solutions ", correct: true },
+      { text: "None of the above", correct: false },
+      { text: "All of the above ", correct: false }
     ]
   },
   {
-    question: "How is whole-body vibration primarily transmitted to the body?",
+    question: "Which of the following is the primary goal of antisepsis?",
     answers: [
-      { text: "Through hands and arms", correct: false },
-      { text: "Through the feet", correct: true },
-      { text: "Through the head", correct: false },
-      { text: "Through the eyes", correct: false },
-      { text: "Through the respiratory system", correct: false }
+      { text: "• Killing all microorganisms", correct: false },
+      { text: "Reducing the number of microorganisms to a safe level", correct: true },
+      { text: "Inhibiting the growth of microorganisms ", correct: false },
+      { text: " Removing all microorganisms from a surface ", correct: false },
+      { text: "None of the above ", correct: false }
     ]
   },
   {
-    question: "What is an example of an administrative control for whole-body vibration exposure?",
+    question: " Which of the following is an example of a factor that can affect the effectiveness of an antiseptic?",
     answers: [
-      { text: "Utilizing vibration-absorbing materials", correct: false },
-      { text: "Limiting time spent on vibrating surfaces", correct: false },
-      { text: "Installing vibration damping seats", correct: false },
-      { text: "Enclosing the vibrating source", correct: true },
-      { text: "Choosing tools with low noise", correct: false }
+      { text: "Duration of exposure ", correct: false },
+      { text: "Concentration of the antiseptic", correct: false },
+      { text: "Temperature of the solution", correct: false },
+      { text: "All of the above", correct: true },
+      { text: "pH of the solution", correct: false }
     ]
   },
   {
-    question: "Which type of vibration is restricted to the hands and arms?",
+    question: "Which of the following is an example of a type of antiseptic that can be used to prepare the skin before surgery?",
     answers: [
-      { text: "Whole-body vibration", correct: false },
-      { text: "Environmental vibration", correct: false },
-      { text: "Mechanical vibration", correct: false },
-      { text: "Hand and arm vibration", correct: true },
-      { text: "Vibration via the eyes", correct: false }
+      { text: "Hydrogen peroxide ", correct: false },
+      { text: "Bleach", correct: false },
+      { text: "Vinegar", correct: false },
+      { text: "Betadine", correct: true },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "What is the purpose of local exhaust ventilation?",
+    question: "Which of the following is an example of a method for minimizing the risk of allergic reactions to an antiseptic?",
     answers: [
-      { text: "Enhancing natural ventilation", correct: false },
-      { text: "Eliminating toxic gases", correct: false },
-      { text: "Reducing vibration exposure", correct: false },
-      { text: "Controlling airborne contaminants", correct: true },
-      { text: "Encouraging social interaction", correct: false }
+      { text: "Using a low concentration of the antiseptic", correct: false },
+      { text: "Using a different type of antiseptic", correct: false },
+      { text: "Using a high concentration of the antiseptic ", correct: false },
+      { text: "Performing a skin patch test before use ", correct: true },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "Which of the following represents an example of personal protective equipment?",
+    question: " Which of the following is an example of an antiseptic that can be used to clean medical instruments?",
     answers: [
-      { text: "Vaccination policies", correct: false },
-      { text: "Noise-canceling headphones", correct: false },
-      { text: "Respirators and breathing apparatus", correct: true },
-      { text: "Vibration damping seats", correct: false },
-      { text: "Aesthetic work uniforms", correct: false }
+      { text: "Vinegar", correct: false },
+      { text: "Hydrogen peroxide ", correct: false },
+      { text: "Bleach", correct: true },
+      { text: "Betadine ", correct: false },
+      { text: "None of the above ", correct: false }
     ]
   },
   {
-    question: "According to Cox and Griffiths, what is the result of psychosocial risk factors?",
+    question: "Which of the following is an example of a factor that can affect the speed of the action of an antiseptic?",
     answers: [
-      { text: "Improved work organization", correct: false },
-      { text: "Physical harm only", correct: false },
-      { text: "Occupational stress", correct: true },
-      { text: "Reduced use of chemicals", correct: false },
-      { text: "Enhanced team collaboration", correct: false }
+      { text: "The concentration of the antiseptic ", correct: false },
+      { text: "The temperature of the antiseptic", correct: false },
+      { text: "All of the above ", correct: true },
+      { text: "The type of microorganism ", correct: false },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "What do psychosocial risk factors have the potential to cause, according to Cox and Griffiths?",
+    question: "Which of the following is an example of a factor that can affect the toxicity of an antiseptic?",
     answers: [
-      { text: "Respiratory diseases", correct: false },
-      { text: "Infectious diseases", correct: false },
-      { text: "Psychological, social, and physical harm", correct: true },
-      { text: "Musculoskeletal diseases", correct: false },
-      { text: "Noise-related health issues", correct: false }
+      { text: "Concentration of the antiseptic", correct: false },
+      { text: "Duration of exposure to the antiseptic ", correct: false },
+      { text: "All of the above", correct: true },
+      { text: "Type of microorganism present", correct: false },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "How does administrative control reduce noise exposure through distance?",
+    question: " Which of the following is an example of a method for storing an antiseptic solution? ",
     answers: [
-      { text: "Offering areas for quiet", correct: false },
-      { text: "Limiting time spent at noisy machines", correct: false },
-      { text: "Enclosing or isolating noise sources", correct: true },
-      { text: "Modifying work schedules", correct: false },
-      { text: "Controlling noise through vibration absorption", correct: false }
+      { text: "Keeping it in direct sunlight", correct: false },
+      { text: "Keeping it at room temperature ", correct: false },
+      { text: "Keeping it in a sealed container", correct: true },
+      { text: "None of the above ", correct: false },
+      { text: "All of the above ", correct: false }
     ]
   },
   {
-    question: "Why is equipment maintenance essential in controlling whole-body vibration exposure?",
+    question: "Which of the following is an example of a commonly used antiseptic for wound care?",
     answers: [
-      { text: "To enhance aesthetic appeal", correct: false },
-      { text: "To prevent infectious diseases", correct: false },
-      { text: "To avoid noise exposure", correct: false },
-      { text: "To decrease excessive vibration", correct: true },
-      { text: "To improve mental well-being", correct: false }
+      { text: "Chlorine gas ", correct: false },
+      { text: "Formaldehyde", correct: false },
+      { text: "Ethylene oxide", correct: false },
+      { text: "Hydrogen peroxide", correct: true },
+      { text: "Ethylene oxide", correct: false }
     ]
   },
   {
-    question: "What is the primary purpose of mechanical ventilation in controlling biological agents?",
+    question: "Which of the following is an example of a potential complication of using an antiseptic solution?",
     answers: [
-      { text: "Enhancing natural ventilation", correct: false },
-      { text: "Reducing noise exposure", correct: false },
-      { text: "Filtering airborne contaminants", correct: true },
-      { text: "Encouraging social interaction", correct: false },
-      { text: "Providing relief areas for workers", correct: false }
+      { text: "Tissue damage ", correct: false },
+      { text: "Allergic reaction", correct: false },
+      { text: "All of the above ", correct: true },
+      { text: "Resistance development ", correct: false },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "How do whole-body vibration precautions suggest protecting workers?",
+    question: "Which of the following is an example of a factor that can affect the choice of antiseptic for  particular application?",
     answers: [
-      { text: "Using vibration-absorbing materials", correct: false },
-      { text: "Limiting time spent on a vibrating surface", correct: true },
-      { text: "Installing noise barriers", correct: false },
-      { text: "Enclosing the vibrating source", correct: false },
-      { text: "Choosing tools with low noise", correct: false }
+      { text: "The type of microorganism present", correct: false },
+      { text: "All of the above ", correct: true },
+      { text: "The concentration of the antiseptic", correct: false },
+      { text: " The duration of exposure to the antiseptic", correct: false },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "How are workers exposed to biological agents in laboratory work involving infectious diseases?",
+    question: "Which of the following is an example of a factor that can affect the efficacy of an antiseptic?",
     answers: [
-      { text: "Limiting time spent at a noise source", correct: false },
-      { text: "Using vibration-absorbing materials", correct: false },
-      { text: "Enclosing the work area", correct: false },
-      { text: "Contact with infected individuals or animals", correct: true },
-      { text: "Installing vibration damping seats", correct: false }
+      { text: "The color of the antiseptic ", correct: false },
+      { text: " The pH of the solution", correct: false },
+      { text: " None of the above ", correct: false },
+      { text: "CThe presence of organic material", correct: true },
+      { text: "All of the above ", correct: false }
     ]
   },
   {
-    question: "What is the purpose of personal protective equipment?",
+    question: " Which of the following is an example of a commonly used antiseptic for disinfecting medical equipment?",
     answers: [
-      { text: "Enhancing physical appearance", correct: false },
-      { text: "Providing relief from noise", correct: false },
-      { text: "Preventing psychosocial risk factors", correct: false },
-      { text: "Protection against biological hazards", correct: true },
-      { text: "Limiting time spent at noisy machines", correct: false }
+      { text: "Chlorine gas", correct: false },
+      { text: "Betadine ", correct: false },
+      { text: "Formaldehyde ", correct: false },
+      { text: "Glutaraldehyde", correct: true },
+      { text: "None of the above", correct: false }
     ]
   },
   {
-    question: "What specific measure is considered the most effective in controlling noise exposure in a workplace?",
+    question: "Which of the following is an example of a method for ensuring the proper dilution of an antiseptic solution?",
     answers: [
-      { text: "Providing quiet areas for relief", correct: false },
-      { text: "Using vibration-absorbing materials", correct: false },
-      { text: "Enclosing or isolating noise sources", correct: true },
-      { text: "Limiting exposure through distance", correct: false },
-      { text: "Modifying work schedule", correct: false }
+      { text: "Using a color indicator", correct: false },
+      { text: "Using a pH meter ", correct: false },
+      { text: "Measuring the solution by volume", correct: true },
+      { text: "None of the above", correct: false },
+      { text: "All of the above", correct: false }
     ]
   },
   {
-    question: "How would you address the risk of silicosis in an industry where workers are exposed to crystalline silica dust?",
+    question: "Stages of the postoperative period",
     answers: [
-      { text: "Use personal protective equipment (PPE)", correct: false },
-      { text: "Limit time spent by workers on vibrating surfaces", correct: false },
-      { text: "Implement engineering controls like ventilation systems", correct: true },
-      { text: "Conduct a walk-through inspection for psychosocial risk factors", correct: false },
-      { text: "", correct: false }
+      { text: "eaarly, remote", correct: false },
+      { text: "late, remote ", correct: false },
+      { text: "early, late, remote ", correct: true },
+      { text: "prehospital, hospital", correct: false },
+      { text: "hospital, rehabilitation", correct: false }
     ]
   },
             
 ]
-
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
