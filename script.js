@@ -1266,8 +1266,8 @@ function selectAnswer(e){
         }
         button.disabled = true;
     });
-    nextButton.style.display = "block";
-    backButton.style.display = "block";
+    nextButton.style.display = "inline";
+    backButton.style.display = "inline";
 
 }
 
@@ -1276,8 +1276,8 @@ function showScore(){
     resetState();
     questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
     nextButton.innerHTML = "Solve Again";
-    nextButton.style.display = "block"
-    backButton.style.display = "block"
+    nextButton.style.display = "inline"
+    backButton.style.display = "inline"
 }
 
 function handleNextButton(){
@@ -1296,7 +1296,7 @@ nextButton.addEventListener("click", ()=>{
 });
 
 function handlebackButton(){
-  currentQuestionIndex++;
+  currentQuestionIndex--;
   if(currentQuestionIndex < questions.length){
       showQuestion();
   } else { showScore()}
