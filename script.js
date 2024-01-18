@@ -217,7 +217,7 @@ const questions = [
       { text: "Elastic bandage ", correct: true },
       { text: "Figure-eight bandage ", correct: false },
       { text: "Spiral bandage ", correct: false },
-      { text: "Circular bandage ", correct: true },
+      { text: "Circular bandage ", correct: false },
       { text: "Recurrent bandage", correct: false }
     ]
   },
@@ -547,7 +547,7 @@ const questions = [
       { text: "Cleaning the surgical room with bleach ", correct: false },
       { text: "Wiping down the surgical table with alcohol", correct: false },
       { text: "Using a sterile surgical gown and gloves", correct: true },
-      { text: " Wearing regular clothing during surgery ", correct: true },
+      { text: " Wearing regular clothing during surgery ", correct: false},
       { text: " Rinsing surgical instruments in tap water", correct: false }
     ]
   },
