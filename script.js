@@ -1206,6 +1206,7 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const backButton = document.getElementById("back-btn");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -1214,6 +1215,7 @@ function startQuiz (){
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
+    backButton.innerHTML = "Back";
     showQuestion();
 }
 
@@ -1240,6 +1242,8 @@ currentQuestion.answers.forEach(answer => {
 
 function resetState(){
 nextButton.style.display = "none";
+backButton.style.display = "none";
+
 while(answerButtons.firstChild){
 answerButtons.removeChild(answerButtons.firstChild);
 
@@ -1263,6 +1267,8 @@ function selectAnswer(e){
         button.disabled = true;
     });
     nextButton.style.display = "block";
+    backButton.style.display = "block";
+
 }
 
 
@@ -1271,6 +1277,7 @@ function showScore(){
     questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
     nextButton.innerHTML = "Solve Again";
     nextButton.style.display = "block"
+    backButton.style.display = "block"
 }
 
 function handleNextButton(){
@@ -1288,4 +1295,18 @@ nextButton.addEventListener("click", ()=>{
     }
 });
 
+function handlebackButton(){
+  currentQuestionIndex++;
+  if(currentQuestionIndex < questions.length){
+      showQuestion();
+  } else { showScore()}
+}
+
+backButton.addEventListener("click", ()=>{
+  if(currentQuestionIndex < questions.length) {
+  handlebackButton();
+  } else{
+      startQuiz();
+  }
+});
 startQuiz();
